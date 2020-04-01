@@ -16,5 +16,5 @@ You'll need to install docker https://docs.docker.com/install/. Open a new termi
 
 ### Setup k8s Environment
 
-eksctl create cluster --name udagram
-eksctl create iamidentitymapping --name udagram --role arn:aws:iam::?:role/travis_eks --group system:masters --username travis_eks
+`eksctl create cluster --name udagram`
+`eksctl create iamidentitymapping --name udagram --role arn:aws:iam::?:role/travis_eks --group system:masters --username travis_eks`
